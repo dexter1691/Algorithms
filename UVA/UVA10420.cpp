@@ -19,7 +19,7 @@ int main(){
  
     while (t--){
         cin>>s;
-        getline(cin,rest); // this is waste, ignore.
+        getline(cin,rest); // this is waste, ignore, to get the rest of the string in that line.
  
         if(hm.find(s)!=hm.end())
             hm[s]++;
